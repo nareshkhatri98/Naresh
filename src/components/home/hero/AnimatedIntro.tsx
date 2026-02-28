@@ -7,7 +7,8 @@ const AnimatedIntro = () => {
             strings:[
                 "Fullstack Developer",
                 "Nextjs Developer",
-                "React Export"
+                "React Export",
+                "Data Analyst"
             ],
             autoStart:true,
             loop:true,

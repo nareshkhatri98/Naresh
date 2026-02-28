@@ -51,7 +51,7 @@ const HeroSection = () => {
         className=" text-center text-3xl sm:text-4xl md:text-5xl lg:text-5xl
       my-6 font-bold tracking-wide text-transparent bg-clip-text bg-linear-to-r from-indigo-500 to-gray-300 "
       >
-        Hi, I&apos;m a web Developer{" "}
+        Hi, I&apos;m a BCA Student{" "}
       </h1>
       <AnimatedIntro />
       <LinkButton
