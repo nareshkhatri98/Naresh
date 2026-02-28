@@ -5,10 +5,10 @@ import { useState } from "react";
 import toast from "react-hot-toast";
 import { DiGithub } from "react-icons/di";
 import {
-    FaEnvelope,
-    FaLinkedinIn,
-    FaMapMarkedAlt,
-    FaPhone,
+  FaEnvelope,
+  FaLinkedinIn,
+  FaMapMarkedAlt,
+  FaPhone,
 } from "react-icons/fa";
 import { LuSend } from "react-icons/lu";
 
@@ -197,7 +197,7 @@ const ContactSection = () => {
             opportunities to be part of your vision.
           </p>
 
-          <div className="space-y-5">
+          <div data-aos ="fade-right" className="space-y-5">
             {contactInfo.map((item, index) => (
               <Link
                 key={index}
@@ -218,7 +218,7 @@ const ContactSection = () => {
         </div>
 
         {/* Right Form */}
-        <div>
+        <div data-aos="fade-left">
           <form
             onSubmit={onSubmit}
             noValidate
