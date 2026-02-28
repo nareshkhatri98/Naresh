@@ -4,6 +4,7 @@ import ProjectSection from "@/components/projects/ProjectSection";
 import ResumeSection from "@/components/resume/ResumeSection";
 import ServiceSection from "@/components/service/ServiceSection";
 import SkillSection from "@/components/skills/SkillSection";
+import { Toaster } from "react-hot-toast";
 import AnimationLayout from "../../layouts/AnimationLayout";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
    <ProjectSection/>
    <SkillSection/>
    <ContactSection/>
+   <Toaster/>
     </AnimationLayout>
   );
 }
